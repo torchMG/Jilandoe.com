@@ -93,6 +93,7 @@
     .hero-photo-card {
       flex: 1 1 260px;
       max-width: 380px;
+      max-height: 560px;
       border-radius: 20px;
       overflow: hidden;
       border: 1px solid rgba(255,255,255,0.14);
@@ -101,8 +102,9 @@
     }
     .hero-photo-card img {
       width: 100%;
+      height: 100%;
       display: block;
-      object-fit: cover;
+      object-fit: contain; /* show full picture, no crop */
     }
 
     /* SECTIONS */
@@ -169,8 +171,8 @@
         <div class="hero-text">
           <div class="hero-tag">Los Angeles · Alt-rap artist</div>
           <h1 class="hero-title">LANi</h1>
-          <p class="hero-line">Melodic, left-of-center rap from a West Coast kid with a big smile and a bigger Afro.</p>
-          <p class="hero-sub">Blending hook-driven storytelling, colorful production, and a different kind of energy than the typical street narrative.</p>
+          <p class="hero-line">Melodic, left-of-center West Coast rap with hook-driven records.</p>
+          <p class="hero-sub">Built on conversational storytelling, melody, and a different energy than the typical street narrative.</p>
 
           <div class="hero-buttons">
             <a class="btn-pill btn-primary" href="https://youtube.com/@jilandoe?si=djzg1WofuX2GvWQJ" target="_blank" rel="noopener noreferrer">
@@ -240,7 +242,7 @@
         <div class="section-label">Bio</div>
         <h2>LANi</h2>
         <p><strong>LANi is a West Coast rapper from Los Angeles crafting melodic, left-of-center records that blend rap, melody-driven hooks, and genre-bending production.</strong> A self-contained writer who pens all of his own music, he leans on conversational storytelling and memorable hooks, aiming for records that feel different while still landing with replay value and live-show energy.</p>
-        <p>Early records like <strong>"That's It", "Rules",</strong> and <strong>"A Few Days"</strong> have started to build his foundation, earning support from DJ coalitions and a featured co-sign from <strong>Vic Mensa</strong>, who highlighted "Rules" on his fan spotlight segment. He has performed at <strong>Cali Fest</strong> and continues to grow his base through consistent performances at open mics, showcases, and local events, developing an early fan community known as <strong>The Roomies</strong>.</p>
+        <p>Early records like <strong>"That's It", "Rules"</strong> and <strong>"A Few Days"</strong> have started to build his foundation, earning support from DJ coalitions and a featured co-sign from <strong>Vic Mensa</strong>, who highlighted "Rules" on his fan spotlight segment. He has performed at <strong>Cali Fest</strong> and continues to grow his base through consistent performances at open mics, showcases, and local events, developing an early fan community known as <strong>The Roomies</strong>.</p>
         <p><strong>LANi is already making his presence felt—delivering records that work onstage and online, and turning first-time listeners into repeat supporters.</strong></p>
       </div>
     </section>
